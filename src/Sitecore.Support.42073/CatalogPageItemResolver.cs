@@ -65,7 +65,7 @@ namespace Sitecore.Support.Commerce.XA.Foundation.Catalog.Pipelines
             else
               SiteContext.CurrentCatalogItem = item;
           }
-          else
+          else if (!Context.IsExperienceEditor)
             Context.Item = null; // Fix #42073
         }
       }
