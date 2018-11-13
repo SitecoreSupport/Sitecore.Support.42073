@@ -45,6 +45,7 @@
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Commerce.XA.Foundation.Catalog, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\COM.Sitecore.Commerce.XA.Foundation.Catalog.9.0.2\lib\Sitecore.Commerce.XA.Foundation.Catalog.dll</HintPath>
@@ -68,12 +69,15 @@
     </Reference>
     <Reference Include="Sitecore.XA.Feature.ErrorHandling">
       <HintPath>..\..\lib\Sitecore.XA.Feature.ErrorHandling.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Abstractions">
       <HintPath>..\..\lib\Sitecore.XA.Foundation.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Multisite">
       <HintPath>..\..\lib\Sitecore.XA.Foundation.Multisite.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
